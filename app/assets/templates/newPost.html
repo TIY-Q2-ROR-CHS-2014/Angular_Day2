@@ -1,0 +1,12 @@
+<form>
+  <label><strong>Title</strong>
+    <input ng-model="formData.newPostTitle">
+  </label>
+
+  <label><strong>Content</strong>
+    <textarea ng-model="formData.newPostContent"></textarea>
+  </label>
+
+  <button class="btn btn-primary" ng-click="createPost()">Create</button>
+  <button class="btn btn-warning" ng-click="returnHome()">Home</button>
+</form>

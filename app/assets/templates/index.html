@@ -1,0 +1,8 @@
+<div class="jumbotron">
+  <h1>{{title}}</h1>
+</div>
+<a ng-click="createNewPost()">New Post</a>
+<div class="row" ng-repeat="post in data.posts">
+  <h2><a ng-click="viewPost(post.id)">{{ post.title }}</a></h2>
+  <p>{{ post.content }}</p>
+</div>

@@ -1,0 +1,23 @@
+- Controllers
+- Directives
+- Services
+
+- Filters
+
+# Create something in Angular
+
+- Include it in your projects correctly
+- Test out dependancy injection
+- Learn how views/controllers interact
+- Learn how directives work
+- Link to new pages
+- Display data
+- Angular Routing
+
+
+
+
+
+
+
+
